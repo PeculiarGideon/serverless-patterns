@@ -10,6 +10,7 @@ COMMENT
 
 
 
+
 for dir in *terraform*
 do
  cd $dir 
@@ -17,3 +18,5 @@ do
  tar -czvf $dir.tar.gz .
  cd ..
 done
+
+
